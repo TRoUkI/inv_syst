@@ -1,0 +1,31 @@
+*{
+	-fx-text-fill: #28527a;
+	-fx-font-size:20;
+}
+.button{
+    -fx-background-color: #8ac4d0;
+    -fx-padding:0;
+    -fx-background-radius: 0;
+    -fx-box-shadow: 0 0 0 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 2);
+}
+.buttonsidebar{
+    -fx-effect:null;
+}
+
+.button:hover{
+    -fx-background-color: #1E88E5;
+}
+
+.label{
+    -fx-font-family: AA Haymaker;
+    -fx-font-size: 15px;
+}
+
+.menu-item {
+    -fx-padding:0;
+}
+
+.menu-button {
+    -fx-padding:0;
+}

@@ -1,0 +1,18 @@
+*{
+	-fx-text-fill: #28527a;
+	-fx-font-size:20;
+}
+.button{
+    -fx-background-color: #8ac4d0;
+    -fx-padding:0;
+}
+
+/*@font-face{
+	font-family: AA Haymaker;
+	src:url(fonts/AA-Haymaker.ttf);
+}*/
+
+.label{
+    -fx-font-family: AA Haymaker;
+    -fx-font-size: 20px;
+}

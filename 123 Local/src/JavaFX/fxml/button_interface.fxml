@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #fed049; -fx-border-width: 2; -fx-border-color: black;" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.Controller">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Button fx:id="Next" layoutX="2.0" layoutY="2.0" mnemonicParsing="false" onAction="#next_press" prefHeight="25.0" prefWidth="120.0" style="-fx-font-size: 12; -fx-background-radius: 0 0 2 0;" text="Наступний запис" />
+      <Button fx:id="Prev" layoutX="178.0" layoutY="2.0" mnemonicParsing="false" onAction="#prev_press" prefHeight="25.0" prefWidth="120.0" style="-fx-font-size: 12; -fx-background-radius: 0 0 0 2;" text="Попередній запис" />
+      <Button fx:id="closeButton" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" layoutX="123.0" layoutY="2.0" mnemonicParsing="false" onAction="#close_but" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #FF2700; -fx-text-fill: white; -fx-font-size: 10; -fx-background-radius: 0 0 2 2;" text="X" textAlignment="CENTER" />
+      <Label layoutX="9.0" layoutY="30.0" text="Id:" />
+      <Label layoutX="8.0" layoutY="62.0" text="Коротка назва:" />
+      <Label layoutX="8.0" layoutY="130.0" text="Ринкова вартість:" />
+      <Label layoutX="103.0" layoutY="29.0" text="Кількість:" />
+      <Line endX="222.0" endY="3.0" layoutX="77.0" layoutY="59.0" startX="-76.0" startY="3.0" />
+      <Line endX="91.0" endY="3.0" layoutX="77.0" layoutY="126.0" startX="-76.0" startY="3.0" />
+      <Line endX="222.0" endY="3.0" layoutX="78.0" layoutY="193.0" startX="-76.0" startY="3.0" />
+      <Line endX="-6.5" endY="83.5" layoutX="175.0" layoutY="112.0" startX="-6.5" startY="-49.5" />
+      <TextField fx:id="count" layoutX="187.0" layoutY="31.0" prefHeight="28.0" prefWidth="81.0" style="-fx-font-size: 13;" />
+      <TextArea fx:id="description" layoutX="4.0" layoutY="226.0" prefHeight="70.0" prefWidth="291.0" />
+      <TextField fx:id="short_name" alignment="CENTER_RIGHT" layoutX="4.0" layoutY="92.0" prefHeight="29.0" prefWidth="160.0" style="-fx-font-size: 13;" />
+      <TextField fx:id="market_price" alignment="CENTER_RIGHT" layoutX="4.0" layoutY="160.0" prefHeight="29.0" prefWidth="137.0" style="-fx-font-size: 13;" />
+      <TextField fx:id="id" alignment="CENTER" editable="true" layoutX="39.0" layoutY="31.0" prefHeight="29.0" prefWidth="49.0" style="-fx-font-size: 13;" />
+      <Label layoutX="8.0" layoutY="197.0" text="Опис:" />
+      <ImageView fitHeight="131.0" fitWidth="126.0" layoutX="171.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://4k-monitor.ru/upload/medialibrary/ceb/cebb1d5a52cf7c24fac63e478f6760ed.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
